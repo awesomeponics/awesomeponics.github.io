@@ -918,3 +918,8 @@ ul.navigation li a:active {
 ul.navigation li a:visited {
     color: #FFFFFF;
 }
+
+.text-thumbnail-image {
+    float: left;
+    margin: 15px 15px 15px 0;
+}
