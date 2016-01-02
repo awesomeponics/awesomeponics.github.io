@@ -882,7 +882,39 @@ footer a:hover {
 /* #Custom styles
 ================================================== */
 
-ul {
+ul.navigation {
     list-style: none;
-    padding-left: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.navigation li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.navigation li a:link {
+    margin: 0 0 20px 0;
+    padding: 5px 0 5px 10px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #2E7BCF url(../images/header-bg.jpg) 60px 0 repeat-x;
+    color: #FFFFFF;
+    display: block;
+}
+
+ul.navigation li a:hover {
+    background: #0051fc;
+    color: #FFFFFF;
+}
+
+ul.navigation li a:active {
+    background-color: #80B8FC;
+    color: #FFFFFF;
+}
+
+ul.navigation li a:visited {
+    color: #FFFFFF;
 }
