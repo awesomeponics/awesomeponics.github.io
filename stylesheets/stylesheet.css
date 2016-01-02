@@ -883,6 +883,7 @@ footer a:hover {
 ================================================== */
 
 ul.navigation {
+<<<<<<< HEAD
     list-style: none;
     padding: 0;
     margin: 0;
@@ -892,6 +893,17 @@ ul.navigation li {
     margin: 0;
     padding: 0;
     list-style: none;
+=======
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.navigation li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+>>>>>>> 671f66287dc211572dff2dd5c943d2f6f9e7a297
 }
 
 ul.navigation li a:link {
@@ -912,5 +924,8 @@ ul.navigation li a:hover {
 
 ul.navigation li a:active {
     background-color: #80B8FC;
+    color: #FFFFFF;
+
+ul.navigation li a:visited {
     color: #FFFFFF;
 }
